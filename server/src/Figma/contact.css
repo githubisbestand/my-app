@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Poppins;
+}
+.loan{
+    width: 80%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    border: 1px solid gray;
+    width: 200px;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px;
+    padding: 10px;
+    margin-bottom: 35px;
+    font-family: Poppins;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+}
+
+.btnNext, .btnText {
+    /* Keep position relative */
+    position: relative; 
+    width: 150px;
+    margin-top: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    font-family: Poppins;
+    background-color: blue;
+    cursor: pointer;
+}
+.loanData{
+    width: 550px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: start;
+    margin-right: 80px;
+}
+.data{
+   margin-left: 50px;
+   margin-top: 30px;
+}
+.input{
+    width: 200px;
+    padding: 10px;
+}
+.loanImg{
+   margin-left: 100px;
+}
+.fa-arrow-left-long{
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+.LoanDetails{
+    margin-left: 25px;
+    font-size: 19px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.lo{
+    display: flex;
+}
+
+.data .btnNext, .data .btnText {
+    position: absolute;
+    top: 340px;
+    right: 340px;
+}
+.lastUpdate, .lastUppdate{
+    width: 200px;    
+}
+.lastUppdate{
+    margin-left: 9px;
+}
+.rupess{
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-family: Poppins serif;
+    font-size: 16px;
+}
+.max_Amount{
+    font-size: small;
+    font-family: Poppins serif;
+}
+.Bank, .DetailsBank{
+    width: 100%;
+    margin: 0px auto;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.Bank{
+    border-radius: 20px;
+}
+.SBI{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DetailsBank, .bankit{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    text-align: start;
+    font-family: Poppins;
+}
+.bankit{
+    width:80%;
+    margin: 0px;
+    font-family: Poppins;
+    align-items: center;
+}
+.btn8{
+    width: 12%;
+}
+.list{
+    border: 0px;
+    width: 500px;
+    text-align: start;
+    list-style:square ;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    list-style-type: circle;
+}
+.show{
+   width: 150px;
+   padding: 7px;
+   border-radius: 5px;
+   background-color: rgb(72, 72, 231);
+   color: white;
+   border: 0px;
+   cursor: pointer;
+   font-family: Poppins;
+   margin-top: 4rem;
+}
+.Thankyou{
+    width: 30%;
+    font-family: Poppins;
+    margin: 0px auto;
+}
+.beat{
+    width: 65%;
+    margin: 70px auto;
+}
+.beten{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: Poppins;
+}
+.btnSeven{
+    width: 250px;
+    border: 0px;
+    background-color: #D9D9D9;
+    font-family: Poppins;
+}
+.HDFC{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.thankyou{
+    width: 30%;
+    text-align: center;
+    margin: 0px auto;
+}
+.THANK{
+    font-weight: 400;
+    font-size: 3rem;
+    margin-top: 0px;
+}
+.ppp{
+    font-size: 20px;
+    font-family: Poppins;
+}
+@media only screen and (max-width: 800px) {
+    .loan {
+        /* Adjust layout for smaller screens */
+        width: 33rem;
+        display: flex;
+        flex-direction: column;
+        columns: 1fr;
+        align-items: center; /* Center items vertically */
+        overflow: hidden;
+         margin-top: 0px;
+         
+    }
+    .bankit{
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+       width: 25rem;
+       margin-right: 2rem;
+        margin-bottom: 20px;
+        padding: 1rem;
+        font-size: 20px;
+    }
+
+    .mindul{
+       width: 140%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .loanImg img {
+        /* Make images responsive */
+        width: 50%;
+        height: auto;
+    }
+    .Bank{
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+    }
+
+    .DetailsBank {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .input {
+        /* Adjust input width */
+        width: 25rem;
+        padding: 1.3rem;
+       
+    }
+    .mindul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .show{
+        margin-top: 90px;
+        width: 250px;
+        padding: 10px;
+        font-size: large;
+    }
+    .btnNext {
+        width: 20rem;
+        padding: 1rem;
+        font-size: 20px;
+    }
+    .data ul, .lo, .input {
+        /* Ensure list items appear in a column */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
+    }
+    .loanData {
+        /* Adjust styles for loanData */
+        width: 100%; /* Reduce loanData width */
+        margin: 20px auto; /* Add space around loanData */
+        text-align: center;
+        height: 520px; 
+        border-radius: 25px;
+    }
+    .data .btnNext, .data .btnText {
+        position: absolute;
+        top: 670px;
+        left: 7rem;
+    }
+    .btneco{
+        width: 20rem;
+        text-align: start;
+    }
+   .LoanDetails{
+    font-size: 25px;
+   }
+   .input::placeholder{
+    font-size: 20px;
+    }
+    .list{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+   .SBI{
+    margin-bottom: 10px;
+    margin-right: 300px;
+   }
+   .hiden{
+    display: none;
+   }
+  
+   .imgtrip{
+        width: 25px;
+        margin-right: 0px;
+   }
+
+   .btn8{
+    margin-right: 13rem;
+   }
+   .rupess{
+
+   }
+}
+
+

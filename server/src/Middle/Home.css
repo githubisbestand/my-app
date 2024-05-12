@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    margin: 0px;
+}
+.Container{
+    width: 100vw;
+    background: linear-gradient(97.02deg, #ECE7FE 0%, #EAFAF3 102.86%);
+    font-family: Poppins;
+    overflow: hidden;
+}
+.ContainerFluid{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.hassle{
+    color: blue;
+}
+.top{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.first,.second{
+    display: flex;
+    flex-direction: column;
+}
+.first li, .second li{
+    margin-bottom: 10px;
+}
+.middle{
+    width: 400px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+}
+.Last{
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+}
+.btnOne, .btnTwo{
+    padding: 12px;
+    width: 180px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+}
+.fa-star{
+    margin-right: 10px;
+    font-weight: 600;
+}
+img{
+    margin-top: 8px;
+}
+.seconPart{
+    width: 100vw;
+    font-family: Poppins;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.firstPoint{
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.Bank{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.btn{
+    border: 0px;
+    background-color: white;
+}
+.mind{
+    display: flex;
+}
+.secondMind{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.image{
+    margin-bottom: 15px;
+}
+h3{
+    margin-bottom: 15px;
+}
+.para{
+    font-size: 12px;
+    width: 200px;
+}
+.hello{
+    margin-top: 100px;
+}
+.ThirdPart{
+    width: 100vw;
+    background: linear-gradient(97.02deg, #ECE7FE 0%, #EAFAF3 102.86%);
+    font-family: Poppins;
+    overflow: hidden;
+}
+.seconPoint{
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+.heading{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 35px;
+}
+.firstenv{
+    margin-bottom: 20px;
+}
+.chaaya{
+    width: 500px;
+    font-size: 16px;
+}
+.pandu{
+    width: 470px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.offers{
+    width: 200px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fourthPart{
+    width: 100vw;
+    font-family: Poppins;
+    overflow: hidden;
+}
+.ThirdPoint{
+    width: 1000px;
+    margin: auto;
+}
+.secondprop{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto;
+}
+.fuld, .fuldy, .fulde, .fuldee{
+    width: 220px;
+    padding: 8px;
+    border-radius: 20px;
+}
+.fuld{
+    background-color: rgba(233, 242, 255, 1);
+}
+.fulde{
+    background: rgba(255, 248, 231, 1);
+}
+.fuldy{
+    background: rgba(255, 238, 237, 1);
+}
+.fuldee{
+    background: rgba(232, 255, 244, 1);
+}
+.loco{
+    margin-bottom: 10px;
+}
+.maneger{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.lasto{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.firstprop{
+    text-align: center;
+    margin-top: 70px;
+}
